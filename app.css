@@ -1,0 +1,26 @@
+.img {
+    width: 650px;
+    height:400px;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#root {
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:100%;
+    grid-gap:5px;
+    flex-flow:wrap;
+}
+
+.container-img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+}
